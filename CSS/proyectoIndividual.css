@@ -1,0 +1,132 @@
+.proyecto-individual {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #033440, #026873 50%, #038c8c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    gap: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Adobe Aldine';
+}
+
+.cuerpo {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 35px 10px;
+    gap: 15px;
+    font-size: 64px;
+}
+
+.texto {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    text-align: center;
+}
+
+.titulo-proyecto {
+    position: relative;
+    letter-spacing: 0.05em;
+}
+
+.lorem-ipsum-dolor {
+    width: 806px;
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-family: 'The Seasons';
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    height: 515px;
+    flex-shrink: 0;
+}
+
+.datos {
+    align-self: stretch;
+    height: 115px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 0px;
+    font-size: 32px;
+    font-family: 'The Seasons';
+}
+
+.ao {
+    width: 295px;
+    position: relative;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.datos-child {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    height: 51px;
+}
+
+.fotos {
+    align-self: stretch;
+    height: 1176px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 48px;
+}
+
+.imagen-1-2-3 {
+    align-self: stretch;
+    height: 659px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagen1 {
+    width: 900px;
+    position: relative;
+    border-radius: 20px;
+    height: 659px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.imagenes-verticales {
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.imagenes-verticales-child {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}

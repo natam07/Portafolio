@@ -1,0 +1,194 @@
+.contacto {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #033440, #026873 50%, #038c8c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    gap: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Adobe Aldine';
+}
+
+.cuerpo {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 10px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'The Seasons';
+}
+
+.contacto2 {
+    align-self: stretch;
+    height: auto;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.listo-para-trabajar {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-family: 'Adobe Aldine';
+}
+
+.me-encantara-iniciar {
+    width: 1368px;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacin {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    font-size: 24px;
+}
+
+.contacto-informacin {
+    align-self: stretch;
+    width: 630px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nombre, .telefono, .email, .nombreCia {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.contacto-nombre, .contacto-telefono, .contacto-email, .contacto-nombreCia {
+    position: relative;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #fff !important ;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 10px;
+    width: 600px;
+}
+
+.contacto-nombre:focus, .contacto-telefono:focus, .contacto-email:focus, .contacto-nombreCia:focus, .textoMsj:focus {
+    background-color: transparent;
+    border: 2px solid #fff !important;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(207, 246, 255, 0.5);
+    outline: none !important;
+    padding-left: 10px;
+}
+
+.contacto-nombre:-webkit-autofill, .contacto-telefono.contacto-nombre:-webkit-autofill {
+    background-color: #038c8c !important;
+    -webkit-text-fill-color: #fff !important;
+    box-shadow: 0 0 0px 1000px #038c8c inset !important;
+}
+
+input, textarea{
+    height: 45px;
+    font-family: 'The Seasons';
+    font-size: 24px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* blanco con transparencia */
+}
+
+.servicios {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.contacto-servicios {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    font-family: 'Adobe Aldine';
+}
+
+.s1, .s2, .s3 {
+    width: 303px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.s1-child, .s2-child, .s3-child {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.textoMsj {
+    background-color: transparent;
+    align-items: start;
+    height: 170px;
+    width: 630px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.botn {
+    width: 150px;
+    border-radius: 45px;
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
